@@ -146,5 +146,5 @@ function showSlides() {
 }
 function home()
 {
-    window.location.href=("Netflix.html")
+    window.location.href=("index.html")
 }
