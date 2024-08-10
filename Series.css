@@ -1,0 +1,371 @@
+body
+{
+    background-color: black;
+    background-repeat: no-repeat;
+
+}
+hr{
+    width: 100%;
+}
+#menu
+{
+    width: 100%;
+    height: 40px;
+    
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+button
+{
+    width: 100px;
+    height: 30px;
+    color:white;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid black;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 15px;
+   margin-top: 10px;
+
+}
+button:hover
+{
+background-color:white;
+color: black;
+}
+input
+{
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: whit;
+    color:black;
+    margin-top:13px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+   
+}
+hr
+{
+    color: white;
+    opacity: 0.5;
+}
+#movie-box
+{
+    width: 70%;
+    height: 100%;
+    margin-top: 0%;
+    margin-left: 35px;
+    background-color:black;
+}
+#released-movies
+{
+    background-image: url("mahesh-businessman-movie-posters-171.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 88%;
+    height:44%;
+    margin-left: 20px;
+    border-radius:30px;
+}
+
+h2
+{
+    margin-left:20px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+#recommend
+{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 30px;
+}
+#info
+{
+    width: 30%;
+    height:110%;
+    background-color:black;
+    position: absolute;
+    right: 0px;
+    left: 68%;
+    top:75px;
+}
+#poster
+{
+    width:93%;
+    height: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#p1{
+    
+    color:white;
+    opacity: 0.9;
+    font-size: 12px;
+}
+#overview
+{
+    color: white;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    opacity: 0.6;
+}
+#p2
+{
+    color:white;
+    opacity: 0.9;
+    font-size: 12px;   
+}
+#p3
+{
+    color:white;
+    opacity: 0.9;
+    font-size: 12px;   
+}
+#p4
+{
+    color:white;
+    opacity: 0.9;
+    font-size: 12px;   
+}
+#date
+{
+    color:white;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    opacity: 0.6;
+}
+#gener
+{
+    color: white;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    opacity: 0.6;
+}
+#cast
+{
+    color: white;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    opacity: 0.6;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: black;
+}
+#pos
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#black
+{
+    border-radius: 10px;
+}
+#play1
+{
+    position: absolute;
+    top: 70px;
+    left:45px;
+   display: block;
+}
+#play2
+{
+    position: absolute;
+    top: 70px;
+    left:45px;
+   display: none;
+}
+#play3
+{
+    position: absolute;
+    top: 70px;
+    left:45px;
+   display: none;
+}
+#play4
+{
+    position: absolute;
+    top: 70px;
+    left:45px;
+   display: none;
+}
+#play5
+{
+    position: absolute;
+    top: 70px;
+    left:45px;
+   display: none;
+}
+#star
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 90px;
+    left:220px;
+    display: block;
+  flex-wrap: wrap;
+  background-color:black;
+  color: white;
+}
+#star1
+{
+    color:orange;
+}
+#star2
+{
+    color:orange;
+}
+#star3
+{
+    color:orange;
+}
+#star4
+{
+    color:white;
+}
+#star5
+{
+    color:white;
+}
+.carousel-item
+{
+    width: 400px;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    left: 17%;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 0px;
+    width: 0px;
+    margin-top: 0px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 10s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .3} 
+    to {opacity: 20}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+#search
+{
+    width: 150px;
+    height: 20px;
+}
+#m1
+{
+    position: absolute;
+    right: 20px;
+    top: 300px;
+    background-color: red;
+    color: black;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#m2
+{
+    position: absolute;
+    right: 200px;
+    top: 210px;
+    background-color: red;
+    color: black;
+    font-size: 15px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#m3
+{
+    position: absolute;
+    right: 200px;
+    top: 210px;
+    background-color: red;
+    color: black;
+    font-size: 15px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#pre
+{
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    color: white;   
+    font-size: small;
+
+}
+#logo
+{
+    position: absolute;
+    left: 0px;
+    top: 2px;
+}
+#logo1
+{
+    position: absolute;
+    right:14px;
+    top:8px;
+}
+#searchimg
+{
+    position: absolute;
+    right:230px;
+    top:14px;
+    color:black;
+    
+}
+.point
+{
+    cursor: pointer;
+}

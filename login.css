@@ -1,0 +1,146 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv.jpg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size:cover;
+    background-position: center;
+}
+.wrapper
+{
+    width: 420px;
+    background-color:rgb(0, 0, 0);   
+    color:white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    border: 2px solid rgba(255, 255,255,.2);
+    backdrop-filter: blur(6px);
+    background: transparent;
+    box-shadow: 0 0 10px rgba(0, 0,0,.2);
+}
+ h1
+{
+    font-size: 36px;
+    text-align:  center;
+}
+.input-box
+{
+    width: 100%;
+    height: 50px;
+    margin: 30px 5px;
+}
+.input-box input
+{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    color:white;
+    font-weight: bold;
+    font-size: larger;
+}
+.input-box input::placeholder
+{
+    font-size:small;
+    color:white;
+}
+.remember
+{
+display: flex;
+justify-content: space-between;
+margin: 20px 0 15px;
+}
+.remember label input
+{
+    color: white;
+    margin-right: 3px;
+}
+.remember a
+{
+    color: white;
+    text-decoration: none;
+}
+.remember a:hover
+{
+    text-decoration: underline;
+}
+ .btn
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+    background:transparent;
+    border:none;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+} 
+.wrapper .register
+{
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+.register p a
+{
+    text-decoration: none;
+    color: white;
+}
+.register p a:hover
+{
+text-decoration: underline;
+}
+.btn:hover
+{
+    text-decoration: underline;
+}
+.span
+{
+    font-size:small;
+    margin-left: 5px;
+    color: transparent;
+    font-weight: bold;
+}
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+#menu
+{
+    width: 100%;
+    height: 40px;
+    background:transparent;
+    position: absolute;
+    top: 0px;
+}
+#back
+{
+    position: absolute;
+    top:26px;
+    left:13px;
+    font-size: 20px;
+}
+#back:hover
+{
+    cursor: pointer;
+}
+img:hover
+{
+    cursor: pointer;
+}

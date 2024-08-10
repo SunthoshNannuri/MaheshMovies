@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="got.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="menu">
+        <nav>
+            <button onclick="home()">Movies</button>
+            <button onclick="series()">Series</a></button>
+            <button onclick="alert('It is same as movies and series page.Try it..!')">Animations</button>
+            <input type="text"  id="search">
+        </nav>
+        <img id="logo" src="C:\Users\nannu\Downloads\pngwing.com.png" width="60px" height="40px" title="Netflix">
+  <a href="login.html" id="vidlink">
+        <img id="logo1" src="C:\Users\nannu\Desktop\javascript\Netflix\logo.webp" width="30px" height="30px" title="Login"></a>
+        <i class="fa fa-search" id="ico"></i>
+    </div>
+    <hr>
+    <div id="main-box">
+        <img src="gamemain2.jpeg" width="100%" height="50%">
+        <button id="watch" onclick="trailer()">Trailer</button>
+    </div>
+    <br>
+
+<div id="sea">
+    <form method="get" name="form1" action="">  
+        <label name="locations">Season</label>
+    <select name="locations" onclick="gotoSection(this.form)">
+         <option selected>season1</option>
+         <option >season2</option>
+         <option>season3</option>
+         <option>season4</option>
+         <option>season5</option>
+         <option>season6</option>     
+     </select>
+   </form>
+</div>
+
+<br>
+<br>class="point"
+<br>
+<div id="recommend">
+    <img  src="s1e1.jpeg" height="220px"  style="margin-left: 8px;" class="point" id="point1" title="episond1" onclick="jio()">
+    <img src="s1e2.jpeg" height="220px" width="140px" style="margin-left: 10px;"class="point" id="point2" title="episond2" onclick="jio()">
+    <img src="s1e3.jpeg" height="220px" style="margin-left: 10px;"class="point" id="point3" title="episond3" onclick="jio()">
+    <img src="s1e4.jpeg" height="220px"  style="margin-left: 10px;"class="point" id="point4" title="episond4" onclick="jio()">
+    <img src="s1e5.jpg" height="220px"  style="margin-left: 10px;"class="point" id="point5" title="episond5" onclick="jio()">
+    <img  src="s1e1.jpeg" height="220px"  style="margin-left: 8px;" class="point" id="point6" title="episond6" onclick="jio()">
+    <img src="s1e2.jpeg" height="220px" width="140px" style="margin-left: 10px;"class="point" id="point7" title="episond7" onclick="jio()">
+    <img src="s1e3.jpeg" height="220px" style="margin-left: 10px;" id="point8" class="point"title="episond8" onclick="jio()">
+</div>
+<div id="episod">
+    <h3>Episode1</h3>
+    <h3>Episode2</h3>
+    <h3>Episode3</h3>
+    <h3>Episode4</h3>
+    <h3>Episode5</h3>
+    <h3>Episode6</h3>
+    <h3>Episode7</h3>
+    <h3>Episode8</h3>
+</div>
+<div id="pop">
+    <p>what i have done to season1 and season2 the same code will be written <br>try it..!</p>
+    <button id="in" onclick="popchange()">close</button>
+</div>
+<script src="got.js"></script>
+</body>
+</html>
