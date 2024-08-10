@@ -14,5 +14,5 @@ function login(){
   }
   function back()
   {
-    window.location.href = "Netflix.html";
+    window.location.href = "index.html";
   }
